@@ -1,2 +1,5 @@
 n,k=map(int,input().split())
-print(n**k)
+sqrt=1
+for i in range(k):
+  sqrt=sqrt*n
+print(sqrt)
