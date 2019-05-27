@@ -1,10 +1,10 @@
 n=input()
-if(n>='a' && n<='z')||(n>='A' && n<='B'):
-  if(n=='a' || n=='e' || n=='i' || n=='o' || n=='u' || n=='A' || n=='E' || n=="I" || n=='O' || n=='U'):
+if(n>='a' and n<='z')or(n>='A' and n<='B'):
+  if(n=='a' or n=='e' or n=='i' or n=='o' or n=='u' or n=='A' or n=='E' or n=="I" or n=='O' or n=='U'):
     print("Vowel")
   else:
     print("Consonant")
-elif(n>=0 && n<=9):
+elif(n>=0 and n<=9):
   print("digit")
 else:
   print("invalid")
