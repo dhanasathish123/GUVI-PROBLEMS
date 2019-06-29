@@ -1,3 +1,3 @@
-n=int(input())
-l=input().split()
-print(l.sort())
+n=int(input()
+l=[int(x) for x in input().split()]
+print(*sorted(l))
